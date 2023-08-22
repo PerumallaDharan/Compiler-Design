@@ -1,0 +1,30 @@
+Keyword             : int
+Keyword             : main()
+Parenthesis         : {
+Keyword             : int
+Identifier          : x
+Invalid Token       : =
+Invalid Token       : 42;
+Keyword             : if
+Parenthesis         : (
+Identifier          : x
+Relational Operator : >
+Interger            : 10
+Parenthesis         : )
+Parenthesis         : {
+Invalid Token       : printf("x
+Identifier          : is
+Identifier          : greater
+Identifier          : than
+Invalid Token       : 10\n");
+Parenthesis         : }
+Keyword             : else
+Parenthesis         : {
+Invalid Token       : printf("x
+Identifier          : is
+Identifier          : not
+Identifier          : greater
+Identifier          : than
+Invalid Token       : 10\n");
+Parenthesis         : }
+Parenthesis         : }
