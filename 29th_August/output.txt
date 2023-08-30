@@ -1,0 +1,32 @@
+H - Consonant
+e - Vowel
+l - Consonant
+l - Consonant
+o - Vowel
+E - Vowel
+v - Consonant
+e - Vowel
+r - Consonant
+y - Consonant
+o - Vowel
+n - Consonant
+e - Vowel
+M - Consonant
+y - Consonant
+n - Consonant
+a - Vowel
+m - Consonant
+e - Vowel
+i - Vowel
+s - Consonant
+D - Consonant
+h - Consonant
+a - Vowel
+r - Consonant
+a - Vowel
+n - Consonant
+A - Vowel
+P - Consonant
+Number of Vowels - 12
+Number of Consonants - 17
+Number of Lines - 2
