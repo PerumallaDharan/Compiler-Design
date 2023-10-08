@@ -1,0 +1,84 @@
+Parenthesis : {
+Keyword : int
+Invalid : a[3]
+Invalid : ,
+Identifier : t1
+Invalid : ,
+Identifier : t2
+Invalid : ;
+Identifier : t1
+Assignment Operator : =
+Integer : 2
+Invalid : ;
+Invalid : a[0]
+Assignment Operator : =
+Integer : 1
+Invalid : ;
+Invalid : a[1]
+Assignment Operator : =
+Integer : 2
+Invalid : ;
+Invalid : a[t1]
+Assignment Operator : =
+Integer : 3
+Invalid : ;
+Identifier : t2
+Assignment Operator : =
+Addition Operator : -
+Parenthesis : (
+Invalid : a[2]
+Addition Operator : +
+Identifier : t1
+Multiplication Operator : *
+Integer : 6
+Parenthesis : )
+Multiplication Operator : /
+Invalid : a[2]
+Invalid : -t1
+Parenthesis : )
+Invalid : ;
+Keyword : if
+Identifier : t2
+Relational Operator : >
+Integer : 5
+Keyword : then
+Keyword : print
+Parenthesis : (
+Identifier : t2
+Parenthesis : )
+Invalid : ;
+Keyword : else
+Parenthesis : {
+Keyword : int
+Identifier : t3
+Invalid : ;
+Identifier : t3
+Assignment Operator : =
+Integer : 99
+Invalid : ;
+Identifier : t2
+Assignment Operator : =
+Invalid : -25
+Invalid : ;
+Keyword : print
+Parenthesis : (
+Addition Operator : -
+Identifier : t1
+Addition Operator : +
+Identifier : t2
+Multiplication Operator : *
+Identifier : t3
+Parenthesis : )
+Invalid : ;
+Comment : /*
+Letter : this
+Letter : is
+Letter : a
+Letter : comment
+Letter : on
+Integer : 2
+Letter : lines
+Comment : */
+Parenthesis : }
+Keyword : endif
+Parenthesis : }
