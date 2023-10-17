@@ -55,16 +55,27 @@ void L()
 
 int main()
 {
-    printf("Enter the string: ");
-    scanf("%s", input);
-    S();
-    if (strlen(input) == i && error == 0)
+    FILE *fp1, *fp2;
+    fp1 = fopen("input.txt", "r");
+    fp2 = fopen("output.txt", "w");
+    // printf("Enter the string: ");
+    // scanf("%s", input);
+    fscanf(fp1, "%s", input);
+
+    while (input[i] != '\0')
     {
-        printf("String is accepted\n");
+        S();
+        if (strlen(input) == i && error == 0)
+        {
+            // printf("String is accepted\n");
+            fprintf(fp2, "String is accepted\n");
+        }
+        else
+        {
+            // printf("String is not accepted\n");
+            fprintf(fp2, "String is not accepted\n");
+        }
     }
-    else
-    {
-        printf("String is not accepted\n");
-    }
+
     return 0;
 }
