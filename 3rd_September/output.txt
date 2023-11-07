@@ -3,7 +3,7 @@ Keyword : int
 Invalid : a[3]
 Invalid : ,
 Identifier : t1
-Invalid : ,
+Invalid : , 
 Identifier : t2
 Invalid : ;
 Identifier : t1
@@ -62,8 +62,7 @@ Invalid : -25
 Invalid : ;
 Keyword : print
 Parenthesis : (
-Addition Operator : -
-Identifier : t1
+Invalid : -t1
 Addition Operator : +
 Identifier : t2
 Multiplication Operator : *
