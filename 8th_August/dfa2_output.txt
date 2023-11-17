@@ -1,1 +1,1 @@
-String is accepted
+String is not accepted
