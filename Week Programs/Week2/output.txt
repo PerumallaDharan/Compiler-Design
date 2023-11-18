@@ -1,0 +1,16 @@
+Keyword             : int
+Identifier          : main
+Parenthesis         : (
+Parenthesis         : )
+Parenthesis         : {
+Identifier          : printf
+Parenthesis         : (
+Invalid Token       : "
+Identifier          : Hello
+Identifier          : World
+Invalid Token       : "
+Parenthesis         : )
+Invalid Token       : ;
+Identifier          : return
+Interger            : 0
+Invalid Token       : ;
