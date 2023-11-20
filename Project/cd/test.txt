@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+
+bool is_valid(const char *input_string)
+{
+    int length = strlen(input_string);
+    if (length < 2)
+    {
+        return false;
+    }
+    return input_string[length - 2] == input_string[length - 1];
+}
+
+int main()
+{
+    const char *test_strings[] = {"aabb", "bbaa", "aab", "bb", "aa", "abab", "aaab", "ababa"};
+
+    int num_test_strings = sizeof(test_strings) / sizeof(test_strings[0]);
+
+    for (int i = 0; i < num_test_strings; i++)
+    {
+        bool result = is_valid(test_strings[i]);
+        printf("'%s' is %s\n", test_strings[i], result ? "accepted" : "not accepted");
+    }
+
+    return 0;
+}

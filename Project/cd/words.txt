@@ -1,0 +1,156 @@
+*****************************Analysis Table******************************
+
+Content	Description	Type Code	Identifier Type	Line Number
+include	Identifier	 10	        		1
+<	  Operator	 16	        		1
+stdio	Identifier	 10	        		1
+h	Identifier	 10	        		1
+>	  Operator	 18	        		1
+include	Identifier	 10	        		2
+<	  Operator	 16	        		2
+stdbool	Identifier	 10	        		2
+h	Identifier	 10	        		2
+>	  Operator	 18	        		2
+include	Identifier	 10	        		3
+<	  Operator	 16	        		3
+string	Reserved Word	  5	        		3
+h	Identifier	 10	        		3
+>	  Operator	 18	        		3
+bool	Identifier	 10	        		5
+is	Identifier	 10	        		5
+valid	Identifier	 10	        		5
+(	 Delimiter	 22	        		5
+const	Identifier	 10	        		5
+char	Reserved Word	  4	        		5
+*	  Operator	 13	        		5
+input	Identifier	 10	        		5
+string	Reserved Word	  5	        		5
+)	 Delimiter	 23	        		5
+{	 Delimiter	 24	        		6
+int	Reserved Word	  1	        		7
+length	Identifier	 10	        		7
+=	  Operator	 21	        		7
+strlen	Identifier	 10	        		7
+(	 Delimiter	 22	        		7
+input	Identifier	 10	        		7
+string	Reserved Word	  5	        		7
+)	 Delimiter	 23	        		7
+;	 Delimiter	 26	        		7
+if	Reserved Word	  6	        		8
+(	 Delimiter	 22	        		8
+length	Identifier	 10	        		8
+<	  Operator	 16	        		8
+2	  Constant	 28	        		8
+)	 Delimiter	 23	        		8
+{	 Delimiter	 24	        		9
+return	Reserved Word	  3	        		10
+false	Identifier	 10	        		10
+;	 Delimiter	 26	        		10
+}	 Delimiter	 25	        		11
+return	Reserved Word	  3	        		12
+input	Identifier	 10	        		12
+string	Reserved Word	  5	        		12
+length	Identifier	 10	        		12
+-	  Operator	 12	        		12
+2	  Constant	 28	        		12
+==	  Operator	 15	        		12
+=	  Operator	 21	        		12
+input	Identifier	 10	        		12
+string	Reserved Word	  5	        		12
+length	Identifier	 10	        		12
+-	  Operator	 12	        		12
+1	  Constant	 28	        		12
+;	 Delimiter	 26	        		12
+}	 Delimiter	 25	        		13
+int	Reserved Word	  1	        		15
+main	Reserved Word	  0	        		15
+(	 Delimiter	 22	        		15
+)	 Delimiter	 23	        		15
+{	 Delimiter	 24	        		16
+const	Identifier	 10	        		17
+char	Reserved Word	  4	        		17
+*	  Operator	 13	        		17
+test	Identifier	 10	        		17
+strings	Identifier	 10	        		17
+=	  Operator	 21	        		17
+{	 Delimiter	 24	        		17
+aabb	Identifier	 10	        		17
+bbaa	Identifier	 10	        		17
+aab	Identifier	 10	        		17
+bb	Identifier	 10	        		17
+aa	Identifier	 10	        		17
+abab	Identifier	 10	        		17
+aaab	Identifier	 10	        		17
+ababa	Identifier	 10	        		17
+}	 Delimiter	 25	        		17
+;	 Delimiter	 26	        		17
+int	Reserved Word	  1	        		19
+num	Identifier	 10	        		19
+test	Identifier	 10	        		19
+strings	Identifier	 10	        		19
+=	  Operator	 21	        		19
+sizeof	Identifier	 10	        		19
+(	 Delimiter	 22	        		19
+test	Identifier	 10	        		19
+strings	Identifier	 10	        		19
+)	 Delimiter	 23	        		19
+/	  Operator	 14	        		19
+sizeof	Identifier	 10	        		19
+(	 Delimiter	 22	        		19
+test	Identifier	 10	        		19
+strings	Identifier	 10	        		19
+0	  Constant	 28	        		19
+)	 Delimiter	 23	        		19
+;	 Delimiter	 26	        		19
+for	Reserved Word	  8	        		21
+(	 Delimiter	 22	        		21
+int	Reserved Word	  1	        		21
+i	Identifier	 10	        		21
+=	  Operator	 21	        		21
+0	  Constant	 28	        		21
+;	 Delimiter	 26	        		21
+i	Identifier	 10	        		21
+<	  Operator	 16	        		21
+num	Identifier	 10	        		21
+test	Identifier	 10	        		21
+strings	Identifier	 10	        		21
+;	 Delimiter	 26	        		21
+i	Identifier	 10	        		21
++	  Operator	 11	        		21
++	  Operator	 11	        		21
+)	 Delimiter	 23	        		21
+{	 Delimiter	 24	        		22
+bool	Identifier	 10	        		23
+result	Identifier	 10	        		23
+=	  Operator	 21	        		23
+is	Identifier	 10	        		23
+valid	Identifier	 10	        		23
+(	 Delimiter	 22	        		23
+test	Identifier	 10	        		23
+strings	Identifier	 10	        		23
+i	Identifier	 10	        		23
+)	 Delimiter	 23	        		23
+;	 Delimiter	 26	        		23
+printf	Identifier	 10	        		24
+(	 Delimiter	 22	        		24
+%	  Operator	 14	        		24
+s	Identifier	 10	        		24
+is	Identifier	 10	        		24
+%	  Operator	 14	        		24
+s	Identifier	 10	        		24
+n	Identifier	 10	        		24
+test	Identifier	 10	        		24
+strings	Identifier	 10	        		24
+i	Identifier	 10	        		24
+result	Identifier	 10	        		24
+accepted	Identifier	 10	        		24
+not	Identifier	 10	        		24
+accepted	Identifier	 10	        		24
+)	 Delimiter	 23	        		24
+;	 Delimiter	 26	        		24
+}	 Delimiter	 25	        		25
+return	Reserved Word	  3	        		27
+0	  Constant	 28	        		27
+;	 Delimiter	 26	        		27
+}	 Delimiter	 25	        		28
+
